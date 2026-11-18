@@ -27,9 +27,9 @@ OPTIONAL UPGRADE (plays the video directly inside the README):
 3. Put that link on its own line under this comment and commit.
 -->
 
-[![Watch the SafeWalk DEMO](docs/screenshots/01-home.png)](docs/demo.mp4)
+[![Watch the SafeWalk DEMO]](DEMO.mp4)
 
-**[Click the image to watch the DEMO video](docs/demo.mp4)**
+**[Click the image to watch the DEMO video](DEMO.mp4)**
 
 ---
 
