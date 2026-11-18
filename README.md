@@ -20,37 +20,12 @@ A sensor-based personal safety app built with Flutter, with GPS location sharing
 ## DEMO
 
 <!--
-OPTIONAL UPGRADE (plays the video directly inside the README):
-1. On GitHub open README.md and click the pencil (Edit) button.
-2. Drag your demo video into the editor. GitHub uploads it and pastes a link like
-   https://github.com/user-attachments/assets/xxxxxxxx
-3. Put that link on its own line under this comment and commit.
+OPTIONAL: to play the video directly inside this page instead of linking to it,
+click the pencil (Edit) button on GitHub, drag DEMO.mp4 into the editor, and
+paste the link GitHub creates on its own line here.
 -->
 
-[![Watch the SafeWalk DEMO]](DEMO.mp4)
-
-**[Click the image to watch the DEMO video](DEMO.mp4)**
-
----
-
-## Screenshots
-
-<table>
-  <tr>
-    <td align="center"><img src="docs/screenshots/01-home.png" width="200" alt="Home screen"><br><sub><b>Home</b><br>SOS button and status</sub></td>
-    <td align="center"><img src="docs/screenshots/02-countdown.png" width="200" alt="Cancel countdown"><br><sub><b>Cancel countdown</b><br>Stop false alarms</sub></td>
-    <td align="center"><img src="docs/screenshots/03-alert-ready.png" width="200" alt="Alert ready"><br><sub><b>Alert ready</b><br>SMS, share or call</sub></td>
-    <td align="center"><img src="docs/screenshots/04-contacts.png" width="200" alt="Emergency contacts"><br><sub><b>Contacts</b><br>People you trust</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/screenshots/05-history.png" width="200" alt="Alert history"><br><sub><b>History</b><br>Every alert saved</sub></td>
-    <td align="center"><img src="docs/screenshots/06-settings-dark.png" width="200" alt="Settings in dark mode"><br><sub><b>Settings (dark)</b><br>Live sensor meter</sub></td>
-    <td align="center"><img src="docs/screenshots/07-settings-light.png" width="200" alt="Settings in light mode"><br><sub><b>Settings (light)</b><br>Theme and sensitivity</sub></td>
-    <td></td>
-  </tr>
-</table>
-
-> Phone numbers and GPS coordinates in the screenshots are masked for privacy.
+### [▶ Watch the DEMO video](DEMO.mp4)
 
 ---
 
@@ -123,7 +98,8 @@ lib/
 ├── screens/               Home, contacts, history, settings, SOS overlay, fake call
 └── widgets/               SOS button, soft card, sensor meter
 test/                      Unit tests for the shake algorithm
-docs/                      Screenshots, demo video and notes
+docs/                      Project report and notes
+DEMO.mp4                   Demo video
 ```
 
 ## Getting started
