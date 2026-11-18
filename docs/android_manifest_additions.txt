@@ -1,0 +1,27 @@
+Open:  android/app/src/main/AndroidManifest.xml
+
+1) Add these two lines INSIDE <manifest ...>, ABOVE the <application> tag:
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+2) Add this block INSIDE <manifest ...>, BELOW the closing </application> tag.
+   (If a <queries> block already exists, add only the three <intent> items
+   inside that existing <queries>. Do not create a second <queries> block.)
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="sms"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="tel"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
+        </intent>
+    </queries>
+
+3) Optional: change android:label="safewalk" to android:label="SafeWalk".

@@ -1,0 +1,27 @@
+name: safewalk
+description: SafeWalk - a sensor-based personal safety app (Mobile Application Development semester project).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2            # state management
+  sqflite: ^2.3.3             # local SQLite database
+  path: ^1.9.0                # build the database file path
+  shared_preferences: ^2.3.0  # small settings (theme, countdown, threshold)
+  sensors_plus: ^6.0.1        # accelerometer (shake detection)
+  geolocator: ^12.0.0         # GPS location
+  url_launcher: ^6.3.0        # open SMS app, dialer, maps
+  share_plus: ^10.0.0         # share alert via WhatsApp etc.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
